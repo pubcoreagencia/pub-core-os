@@ -1,38 +1,12 @@
-# MASTER CONTEXT — Pub Core OS
+# LEGACY MASTER CONTEXT — PUB CORE OS
 
-**Identificador Canônico:** `pub-core-os`  
-**Vertical:** Tecnologia / SO  
-**Holding:** PUB Core Holding  
-**Status de Maturidade:** EM DEV / GITHUB  
-**Nível de Prioridade:** CRÍTICA  
-**Data de Alinhamento:** 2026-09-05  
+**Status:** LEGACY / REDIRECT
+**Canonical repository:** `pubcoreagencia/pubcore`
+**Canonical project context:** `pubcore/MASTER_CONTEXT.md`
+**Unification record:** `pubcore/docs/REPOSITORY_UNIFICATION.md`
 
----
+This repository is no longer an independent PUB Core implementation. The canonical PUB Core platform lives in `pubcoreagencia/pubcore`.
 
-## 1. Visão Executiva & Propósito
-Sistema operacional institucional e unificador de governança da holding.
+Do not add new PUB Core platform code here. Preserve this repository only as historical provenance until repository-level archival/deletion is explicitly performed.
 
-O projeto integra a esteira de desenvolvimento autônomo da holding (**PUB DEV LOOP / PDL**), com atuação contínua dos agentes especializados (Arquitetura, Desenvolvimento, QA, Segurança e Operações).
-
----
-
-## 2. Nível de Maturidade & Classificação
-- **Maturidade Atual:** `EM DEV / GITHUB`
-  - *ONLINE / EM PRODUÇÃO:* Sistemas em execução na nuvem com clientes ativos e tráfego live.
-  - *EM DEV / GITHUB:* Repositório provisionado, código-fonte versionado e features em pipeline.
-  - *IDEA / DESIGN:* Projeto conceitualizado e documentado no Master Context, estruturado para prototipação e bootstrapping no PDL.
-- **Prioridade:** `CRÍTICA`
-
----
-
-## 3. Diretrizes de Desenvolvimento Autônomo 24h
-1. **Zero Fake Work:** Todas as tarefas devem resultar em código real, testes válidos e commits no repositório correspondente.
-2. **Modularidade:** Componentes desenvolvidos neste projeto devem seguir as diretrizes da PUB Core Holding de reutilização e segurança.
-3. **Governança:** Dr. Arthur Vance e a equipe de especialistas gerenciam o backlog, tomada de decisão e relatórios executivos para o CEO Matheus Paes.
-
----
-
-## 4. Rastreabilidade & Conexões
-- **Master Context Geral:** `docs/PUBMASTERMEGABLASTERCONTEXT.md`
-- **Orquestrador:** PUB DEV LOOP
-- **Repositório GitHub:** `pubcoreagencia/pub-core-os`
+**Authority:** Git records the canonical implementation in `pubcore`; Supabase proves live database state; the institutional `PUBMASTERMEGABLASTERCONTEXT.md` governs holding-level context.
